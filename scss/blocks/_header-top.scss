@@ -1,0 +1,35 @@
+.header__top{
+    display: flex;
+    background-color: rgb(18, 18, 18);
+    height: 78px;
+    justify-content: center;
+}
+
+.header__top-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__contact{
+    color: white;
+}
+
+
+.header__btn{
+    background-color: #fc6464;
+    font-weight: 700;
+    margin: -53px 15px 20 auto;
+    padding: 2px 31px 3px 29px;
+    border-radius: 21px;
+    border: 4px solid #fc6464;
+    transition: 0.5s;
+}
+
+
+.header__btn:hover{
+    transition: 0.5s;
+    scale: 1.05;
+}

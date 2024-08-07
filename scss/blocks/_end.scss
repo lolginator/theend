@@ -1,0 +1,62 @@
+
+.end{
+    //https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsL9nBo75OZIYZtXhLMxicTBzMkjTNdetx9BRzmkbrvddpL2WaRCfq0SjhconcTTB7ENg&usqp=CAU
+    background-image: url(https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+
+    //https://e0.pxfuel.com/wallpapers/779/610/desktop-wallpaper-valorant-logo-2-minimal-minimalism-mini.jpg
+}
+
+
+
+.end__form{
+    width: 473px;
+    height: 840px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/779/610/desktop-wallpaper-valorant-logo-2-minimal-minimalism-mini.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 210px;
+    gap: 80px;
+}
+
+
+.end__text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    max-width: 310px;
+    font-weight: 700;
+}
+
+.end__title{
+    font-size: 60px;
+}
+
+
+.end__btn{
+    border: 1px solid #fc6464;
+    background-color: #fc6464;
+    border-radius: 20px;
+    display: flex;
+    width: 64px;
+
+    img{
+        opacity: 0.8;
+    }
+    
+
+    margin-top: 20px;
+}
+
+
+

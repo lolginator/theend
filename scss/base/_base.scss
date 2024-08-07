@@ -1,0 +1,281 @@
+
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+*{
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+.container__2{
+    margin: 0 auto;
+    width: 488px;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .main__body form{
+        width: 600px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main__body form{
+        width: 500px;
+    }
+    .main__body{
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 600px) {
+    
+    .main__body{
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .main__body form{
+        width: 500px;
+
+        .form__input-row{
+            width: 450px;
+        }
+
+        .form__contacts{
+            margin-left: 19px;
+        }
+
+        .form__check{
+            margin-left: 19px;
+        }
+    } 
+}
+@media (max-width: 480px) {
+    .main__body{
+        background-size: cover;
+        background-position: center;
+    
+        form{
+        width: 390px;
+        display: flex;
+
+        .form__input-row{
+            width: 350px;
+        }
+
+        .form__contacts{
+            margin-left: 19px;
+        }
+
+        .form__check{
+            margin-left: 19px;
+        }
+
+        .form__cont{
+            border: solid 1px black;
+            padding: 10px 40px 0px 40px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+    } 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1600px){
+
+    .header{
+        background-position: center;
+    }
+
+
+    .container{
+        width: 768px;
+    }
+    .header__card{
+        flex-direction: column;
+        gap: 10px;
+        margin: -48px 80px -48px 95px ;
+    }
+
+
+
+        //HEADER INFO
+
+    .header__info{
+        text-align: center;
+    }
+    .header__info h1{
+        font-size: 60px;
+        margin-top: -50px;
+    }
+
+    .header__info .text{
+        font-size: 16px;
+        margin-bottom: -50px;
+    }
+
+
+
+    //CARDS
+
+    .card__1 img{
+      width: 175px;
+    }
+
+    .card__2 img{
+        width: 175px;
+   
+    }
+
+    .card__2 .card__2__title{
+        top: 10px;
+    }
+
+
+    .header__button a button{
+        margin-top: -30px;
+    }
+
+    .card__text{
+        bottom: 15px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .header{
+        background-position: center;
+    }
+    .container{
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        background-position: center;
+    }
+    .container{
+        width: 480px;
+    }
+}
+
+@media (max-width: 480px){
+    .header{
+        background-position: center;
+
+        .card__1__title{
+            top:1px;
+        }
+
+        .card__2__title{
+            top:1px;
+        }
+
+        .header__button a button{
+            margin-top: 40px;
+        }
+
+
+        .card__text{
+            font-size: 10px;
+            bottom: 10px;
+        }
+        
+
+
+    .container{
+        width: 380px;
+    }
+
+    .header__card{
+        flex-direction: column;
+        gap: 10px;
+        margin: -48px 4px -48px 10px ;
+    }
+
+
+
+    .header__info{
+        h1{
+            font-size: 35px;
+            margin-top: -20px;
+        }
+        .text{
+            font-size: 15px;
+        }
+    }
+
+    footer{
+        height: 100px;
+    }
+    
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 490px){
+    .end__form{
+        width: 473px;
+        height: 840px;
+        background-image: url(https://e0.pxfuel.com/wallpapers/779/610/desktop-wallpaper-valorant-logo-2-minimal-minimalism-mini.jpg);
+        background-size: cover;
+        border-radius: 20px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 210px;
+        gap: 80px;
+
+
+        .end__title{
+            font-size: 50px;
+        }
+
+        .end__text{
+            font-size: 18px;
+            max-width: 300px;
+        }
+    }
+    
+}

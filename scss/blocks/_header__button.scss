@@ -1,0 +1,25 @@
+.header__button{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    border: solid 1px #fc6464;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #fc6464;
+    transition: 0.5s;
+}
+
+
+.btn:hover{
+    transition: 0.5s;
+    scale: 1.05;
+    background-color: white;
+    color: black;
+    border: solid 1px white;
+}

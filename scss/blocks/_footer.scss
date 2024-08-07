@@ -1,0 +1,18 @@
+footer{
+    background-color: #0f1923;
+    height: 200px;
+}
+
+.footer__container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+    p{
+        color:  #7e7e7e;
+    }
+}
+
